@@ -1,22 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Boston University
+// Engineer: Jackson Clary
 // 
-// Create Date: 10/01/2024 02:41:42 PM
-// Design Name: 
-// Module Name: CSA2_64bit_tb
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Create Date: 10/01/2024 02:20:25 PM
+// Design Name: Carry-Select-Adder
+// Module Name: CSA_64bit_tb_0
+// Project Name: EC413 Lab 3
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -49,15 +39,15 @@ module CSA_64bit_tb_0;
         c_in = 1;
         #10;
         
-//        a = 64'hFFFFFFFFFFFFFFFF;
-//        b = 64'h0000000000000001;
-//        c_in = 1;
-//        #10;
+        a = 64'hFFFFFFFFFFFFFFFF;
+        b = 64'h0000000000000001;
+        c_in = 1;
+        #10;
         
-//        a = 64'h000000000000000A;
-//        b = 64'hFFFFFFFFFFFFFFF6;
-//        c_in = 0;
-//        #10;
+        a = 64'h000000000000000A;
+        b = 64'hFFFFFFFFFFFFFFF6;
+        c_in = 0;
+        #10;
         
         a = 64'hFFFFFFFFFFFFFFFF;
         b = 64'hFFFFFFFFFFFFFFFF;
