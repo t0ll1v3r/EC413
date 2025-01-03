@@ -38,7 +38,7 @@ Copy:  	.space  128		        # space to copy input word by word
         .align  4
 Input3_TAG: .ascii "Input3 starts on next line"
         .align  4
-Input3:	.space	400		        # space for data to be transposed
+Input3:	.space	400		# space for data to be transposed
 
 inLen3: .word 100		# length of Input3
 
