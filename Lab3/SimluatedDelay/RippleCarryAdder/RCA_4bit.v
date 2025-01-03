@@ -1,22 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Boston University
+// Engineer: Jackson Clary
 // 
-// Create Date: 10/01/2024 07:26:14 AM
-// Design Name: 
+// Create Date: 10/01/2024 02:20:25 PM
+// Design Name: Ripple-Carry-Adder
 // Module Name: RCA_4bit
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Project Name: EC413 Lab 3
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -26,7 +16,7 @@ module RCA_4bit(
     input c_in,
     output [3:0] sum,
     output c_out
-    );
+);
     
     wire c1, c2, c3;
     
