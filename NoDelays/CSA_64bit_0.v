@@ -1,22 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Boston University
+// Engineer: Jackson Clary
 // 
 // Create Date: 10/01/2024 02:20:25 PM
-// Design Name: 
+// Design Name: Carry-Select-Adder
 // Module Name: CSA2_64bit
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Project Name: EC413 Lab 3
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -26,7 +16,7 @@ module CSA_64bit_0(
     input c_in,
     output [63:0] sum,
     output c_out
-    );
+);
 
 wire [31:0] sum0, sum1;
 wire carry0, carry1;
@@ -54,7 +44,7 @@ generate
             .c_in(carry[i-1]),
             .sum(sum[4*i+3:4*i]),
             .c_out(carry[i])
-        );
+    );
     end
 endgenerate
 
