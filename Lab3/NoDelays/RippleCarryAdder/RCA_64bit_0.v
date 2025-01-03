@@ -4,7 +4,7 @@
 // Engineer: Jackson Clary
 // 
 // Create Date: 10/01/2024 02:20:25 PM
-// Design Name: Carry-Select-Adder
+// Design Name: Ripple-Carry-Adder
 // Module Name: RCA_64bit_0
 // Project Name: EC413 Lab 3
 //////////////////////////////////////////////////////////////////////////////////
