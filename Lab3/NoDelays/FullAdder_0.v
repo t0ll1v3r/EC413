@@ -1,25 +1,13 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Boston University
+// Engineer: Jackson Clary
 // 
-// Create Date: 09/26/2023 09:43:28 AM
-// Design Name: 
-// Module Name: FullAdder
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Create Date: 10/01/2024 02:20:25 PM
+// Design Name: Carry-Select-Adder
+// Module Name: FullAdder_0
+// Project Name: EC413 Lab 3
 //////////////////////////////////////////////////////////////////////////////////
-
-
 
 
 //module xor_gate (
@@ -86,6 +74,7 @@ module not_gate (
         end
 endmodule
 
+
 module FullAdder_0(
     input c_in,
     input a,
@@ -93,10 +82,11 @@ module FullAdder_0(
     output sum,
     output c_out
 );
-    
+  
 wire temp_sum1, temp_sum2, temp_sum3, temp_sum4, q;
 wire temp_not1, temp_not2, temp_not3, temp_not4;
 wire c1, c2, c3;
+
 
 // q = (a && !b) || (!a && b)
 not_gate NOT1 (
