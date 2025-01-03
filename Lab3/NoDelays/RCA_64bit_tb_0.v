@@ -1,22 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Boston University
+// Engineer: Jackson Clary
 // 
-// Create Date: 10/01/2024 07:52:52 AM
-// Design Name: 
-// Module Name: RCA_64bit_tb
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Create Date: 10/01/2024 02:20:25 PM
+// Design Name: Ripple-Carry-Adder
+// Module Name: RCA_64bit_tb_0
+// Project Name: EC413 Lab 3
 //////////////////////////////////////////////////////////////////////////////////
 
 
