@@ -1,22 +1,12 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Boston University
+// Engineer: Jackson Clary
 // 
-// Create Date: 10/01/2024 07:41:16 AM
-// Design Name: 
-// Module Name: RCA_64bit
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Create Date: 10/01/2024 02:20:25 PM
+// Design Name: Carry-Select-Adder
+// Module Name: RCA_64bit_0
+// Project Name: EC413 Lab 3
 //////////////////////////////////////////////////////////////////////////////////
 
 
@@ -26,7 +16,7 @@ module RCA_64bit_0(
     input c_in,
     output [63:0] sum,
     output c_out
-    );
+);
     
 wire [15:0] carry;
 
