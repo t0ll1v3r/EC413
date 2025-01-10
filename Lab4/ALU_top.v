@@ -31,7 +31,7 @@ module ALU_top #(parameter WIDTH = 32) (
     
     output [WIDTH-1:0] result,
     output c_out
-    );
+);
     
     wire [WIDTH-1:0] ALU_result;
     
