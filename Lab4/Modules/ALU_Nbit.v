@@ -27,7 +27,7 @@ module ALU_Nbit #(parameter WIDTH = 32) (
     input c_in,
     output [WIDTH-1:0] r,
     output c_out
-    );
+);
     
     wire [WIDTH:0] carry;
     
