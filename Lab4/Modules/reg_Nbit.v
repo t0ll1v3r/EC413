@@ -26,7 +26,7 @@ module reg_Nbit#(parameter WIDTH = 32) (
     input enbl,                 // enable/disable
     input [WIDTH-1:0] d,
     output reg [WIDTH-1:0] q
-    );
+);
     
     always @(posedge clk or posedge rst) begin
         if (rst)
