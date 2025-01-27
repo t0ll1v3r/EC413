@@ -40,9 +40,9 @@ The primary goal is to write and debug MIPS assembly programs while adhering to 
 7. **Conditional Statements**
    - Display the first 25 integers divisible by 7, ensuring spaces between outputs.
 
-#### Extra Credit
+##### Extra Credit
 
-8. **Matrix Transposition (10 pts)**
+8. **Matrix Transposition**
    - Implement nested loops or index arithmetic to transpose a dynamically initialized 10x10 byte array.
 
 ### Instructions to Run
