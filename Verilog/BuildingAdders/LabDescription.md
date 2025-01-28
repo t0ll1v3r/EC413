@@ -40,13 +40,6 @@ This lab focuses on the design, simulation, and analysis of 64-bit adders using 
      - Large and small input values with/without carry
      - Randomized combinations
 
-### Questions to Answer
-- What are the gate delay times of the adders? 
-- Are they as expected? Explain why or why not.
-
-### Extra Credit (up to 10 points)
-- Implement an optimized Carry Select Adder with an optimal number of stages.
-
 ### Instructions to Run
 1. Save all Verilog files in a project directory.
 2. Use Xilinx or ModelSim to simulate the design.
