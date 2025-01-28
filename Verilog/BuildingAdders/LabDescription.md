@@ -17,7 +17,6 @@ This lab focuses on the design, simulation, and analysis of 64-bit adders using 
    - Design and implement the following 64-bit adders:
      - **Ripple Carry Adder (RCA)**
      - **2-stage Carry Select Adder**
-     - *(Extra Credit)* A multi-stage Carry Select Adder of your own design
 
 2. **Structural Verilog Implementation**
    - Use gate-level Structural Verilog for the RCA.
