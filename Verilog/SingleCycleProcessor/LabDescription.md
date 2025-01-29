@@ -1,6 +1,6 @@
 ### For Readers
 
-This repository contains my solution for **EC413 Computer Organization - Lab 6: Single-Cycle Processor Design**. The objective of this lab is to design, implement, and test a single-cycle 32-bit processor capable of executing basic arithmetic, logical, memory, and branch instructions.
+This folder contains my solution for **EC413 Computer Organization - Lab 6: Single-Cycle Processor Design**. The objective of this lab is to design, implement, and test a single-cycle 32-bit processor capable of executing basic arithmetic, logical, memory, and branch instructions.
 
 
 ### Overview

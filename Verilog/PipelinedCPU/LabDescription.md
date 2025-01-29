@@ -1,6 +1,6 @@
 ### For Readers
 
-This repository contains my solution for **EC413 Computer Organization - Lab 7: Pipelined CPUs**. The objective of this lab is to gain a deeper understanding of pipelined CPU architecture by adding and testing new features to a standard five-stage MIPS CPU.
+This folder contains my solution for **EC413 Computer Organization - Lab 7: Pipelined CPUs**. The objective of this lab is to gain a deeper understanding of pipelined CPU architecture by adding and testing new features to a standard five-stage MIPS CPU.
 
 
 ### Overview

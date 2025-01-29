@@ -1,6 +1,6 @@
 ### For Readers
 
-This repository contain my solution for **EC413 Computer Organization - Lab 5: 4-Stage 32-bit Pipelined Datapath Design**. The objective of this lab is to design, implement, and test a 4-stage 32-bit pipelined datapath to gain a deeper understanding of pipelining concepts and digital design.
+This folder contain my solution for **EC413 Computer Organization - Lab 5: 4-Stage 32-bit Pipelined Datapath Design**. The objective of this lab is to design, implement, and test a 4-stage 32-bit pipelined datapath to gain a deeper understanding of pipelining concepts and digital design.
 
 
 ### Overview

@@ -1,6 +1,6 @@
 ### For Readers
 
-This repository contains my solution for **EC413 Computer Organization - Lab 3: Verilog Adders Design and Analysis**. The objective of this lab is to gain experience with Structural Verilog, hierarchical design, and performance evaluation of different types of adders.
+This folder contains my solution for **EC413 Computer Organization - Lab 3: Verilog Adders Design and Analysis**. The objective of this lab is to gain experience with Structural Verilog, hierarchical design, and performance evaluation of different types of adders.
 
 ### Overview
 
